@@ -10,16 +10,17 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://graph.org/file/f86b71018196c5cfe7344.jpg",
+    "https://graph.org/file/a3db9af88f25bb1b99325.jpg",
+    "https://graph.org/file/5b344a55f3d5199b63fa5.jpg",
+    "https://graph.org/file/84de4b440300297a8ecb3.jpg",
+    "https://graph.org/file/84e84ff778b045879d24f.jpg",
+    "https://graph.org/file/a4a8f0e5c0e6b18249ffc.jpg",
+    "https://graph.org/file/ed92cada78099c9c3a4f7.jpg",
+    "https://graph.org/file/d6360613d0fa7a9d2f90b.jpg",
 ]
 
-HEY_IMG = "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg"
+HEY_IMG = "https://telegra.ph/file/a2e224ca5309a2c544393.jpg"
 
 ALIVE_ANIMATION = [
     "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
@@ -32,60 +33,77 @@ ALIVE_ANIMATION = [
     "https://telegra.ph//file/6efdd8e28756bc2f6e53e.mp4",
 ]
 
-FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
+BAN_GIFS = [
+    "https://telegra.ph//file/85ac1ab12c833afa1a5dd.mp4",
+]
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴍɪᴋᴏ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+
+KICK_GIFS = [
+    "https://telegra.ph//file/79a6c527e6e6d530bcdc8.mp4",
+]
+
+
+MUTE_GIFS = [
+    "https://telegra.ph//file/b4faf6e390d72d286abdf.mp4",
+]
+
+FIRST_PART_TEXT = "๏ *ʜᴇʏ* `{}`, ᴡᴇʟᴄᴏᴍᴇ !\n━━━━━━━━━━━━━━━━━━━━━━━━"
+
+PM_START_TEXT = "๏ *ɪ ᴀᴍ ๛ᴡ ᴀ ᴀ ɴ ɪ ʏ ᴀ ⸙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n๏ ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ.*"
+
 
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
-        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
-        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://x-hd.video/video/-aubree-valentine-switch-roles-fta-reality-kings.html"),
     ],
     [
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴇxᴛʀᴀ", callback_data="Miko_"),
+        InlineKeyboardButton(text="ᴄʜᴀᴛ ᴀɪ", callback_data="ai_handler"),
     ],
+    [
+        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ", callback_data="help_back"),
+    ],
+    
 ]
 
 GROUP_START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/roy_editx"),
+        ib(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
     ],
     [
         ib(
-            text="⇦ ADD ME ⇨",
+            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
 ]
 
 HELP_STRINGS = """
-🫧 *Yae-Miko* 🫧
+๏ *ʜᴇʏ, ɪ ᴀᴍ ๛ᴡ ᴀ ᴀ ɴ ɪ ʏ ᴀ ⸙* 
 
-☉ *Here, you will find a list of all the available commands.*
-
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+๏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➠ /
 """
