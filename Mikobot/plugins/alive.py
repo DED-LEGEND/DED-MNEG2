@@ -34,7 +34,7 @@ async def alive(_, message: Message):
     caption = f"""**HEY, I AM {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **💓 𝐎𝐖𝐍𝐄𝐑 💓:** [🇩𝐗➳🇱𝐔𝐂𝐊𝐘](https://t.me/DX_LUCKY)
+✪ **𝐎𝐖𝐍𝐄𝐑:** [❥🇱𝐔𝐂𝐊𝐘](https://t.me/DX_LUCKY)
 
 {library_versions_text}
 
