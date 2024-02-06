@@ -74,7 +74,7 @@ if ENV:
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-100"))  # Support group id
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Ecstasy_Realm")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "ll_BOT_TASTING")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
 
