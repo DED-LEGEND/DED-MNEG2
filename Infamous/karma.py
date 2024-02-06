@@ -49,7 +49,7 @@ MUTE_GIFS = [
 
 FIRST_PART_TEXT = "๏ *ʜᴇʏ* `{}`, ᴡᴇʟᴄᴏᴍᴇ !\n━━━━━━━━━━━━━━━━━━━━━━━━"
 
-PM_START_TEXT = "๏ *ɪ ᴀᴍ ๛ᴡ ᴀ ᴀ ɴ ɪ ʏ ᴀ ⸙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n๏ ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ.*"
+PM_START_TEXT = "๏ *ɪ ᴀᴍ ๛ᴅx-ʟ ᴜ ᴄ ᴋ ʏ ⸙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n๏ ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ.*"
 
 
 START_BTN = [
@@ -60,11 +60,11 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/DX_INFO"),
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://x-hd.video/video/-aubree-valentine-switch-roles-fta-reality-kings.html"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"https://te.legra.ph/file/ea823420b677711a12271.mp4"),
     ],
     [
         InlineKeyboardButton(text="ᴇxᴛʀᴀ", callback_data="Miko_"),
@@ -91,8 +91,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/roy_editx"),
-        ib(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/the_friendz"),
+        ib(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DX_INFO"),
+        ib(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/YARANA_TG"),
     ],
     [
         ib(
@@ -103,7 +103,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-๏ *ʜᴇʏ, ɪ ᴀᴍ ๛ᴡ ᴀ ᴀ ɴ ɪ ʏ ᴀ ⸙* 
+๏ *ʜᴇʏ, ɪ ᴀᴍ ๛ᴅx-ʟᴜᴄᴋʏ ⸙* 
 
 ๏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➠ /
 """
